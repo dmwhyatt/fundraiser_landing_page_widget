@@ -134,6 +134,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Debug HTML snapshots saved by FUNDRAISER_DEBUG_SAVE_HTML=1
+debug/
+
 # Environments
 .env
 .envrc
