@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fundraising Progress</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="summary card">
+        <p class="eyebrow">Combined Total</p>
+        <h1 id="total-raised">£0</h1>
+        <p class="target">of <span id="total-target">£0</span></p>
+        <div class="progress-track" aria-hidden="true">
+          <div id="total-progress" class="progress-fill"></div>
+        </div>
+        <p class="progress-label"><span id="total-percent">0%</span> funded</p>
+      </header>
+
+      <section class="card">
+        <div class="card-header">
+          <h2>Campaigns</h2>
+          <p id="last-updated" class="muted">Last updated: never</p>
+        </div>
+        <p id="warning" class="warning hidden">
+          Some campaign data could not be refreshed in the latest run.
+        </p>
+        <ul id="campaign-list" class="campaign-list"></ul>
+      </section>
+    </main>
+
+    <template id="campaign-template">
+      <li class="campaign-item">
+        <div class="campaign-head">
+          <div class="campaign-title">
+            <span class="campaign-icon" aria-hidden="true"></span>
+            <h3 class="campaign-name"></h3>
+          </div>
+          <a class="campaign-link" target="_blank" rel="noreferrer">Source</a>
+        </div>
+        <p class="campaign-amount">
+          <span class="campaign-raised"></span> of
+          <span class="campaign-target"></span>
+        </p>
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill"></div>
+        </div>
+        <p class="progress-label"><span class="campaign-percent"></span> funded</p>
+      </li>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
