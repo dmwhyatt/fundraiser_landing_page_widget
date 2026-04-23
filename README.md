@@ -16,8 +16,7 @@ HHBC, LCCBC and SECBC are running a collaborative fundraiser in a few weeks' tim
 1. Install dependencies:
    - `python3 -m pip install -r requirements.txt`
 2. Create your local env file:
-   - `cp .env.example .env`
-   - Replace values in `.env` with your real fundraiser URLs.
+   - Create `.env` with fundraiser URLs.
 3. Generate a snapshot:
    - `python3 scripts/update_totals.py`
 4. Serve locally:
