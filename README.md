@@ -54,3 +54,7 @@ Set these repository secrets for the scheduled workflow:
 - `FUNDRAISER_URL_A`
 - `FUNDRAISER_URL_B`
 - `FUNDRAISER_URL_C`
+
+## AI Statement
+
+I wrote this using assistance from Sonnet 4.6 and Codex 5.3. 

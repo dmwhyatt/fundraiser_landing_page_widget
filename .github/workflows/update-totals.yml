@@ -1,0 +1,43 @@
+name: Update Fundraising Totals
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update totals snapshot
+        env:
+          FUNDRAISER_URL_A: ${{ secrets.FUNDRAISER_URL_A }}
+          FUNDRAISER_URL_B: ${{ secrets.FUNDRAISER_URL_B }}
+          FUNDRAISER_URL_C: ${{ secrets.FUNDRAISER_URL_C }}
+        run: python scripts/update_totals.py
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet data/totals.json; then
+            echo "No totals changes to commit."
+            exit 0
+          fi
+          git add data/totals.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update fundraising totals snapshot"
+          git push

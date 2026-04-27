@@ -4,41 +4,41 @@
       "id": "hhbc",
       "name": "Hughes Hall BC",
       "icon": "../icons/hhbclogo.png",
-      "sourceUrl": "https://www.justgiving.com/page/lccbc2026",
-      "raised": 4502.95,
-      "target": 5000.0,
-      "progressPercent": 90.06,
-      "updatedAt": "2026-04-23T15:26:19+00:00"
+      "sourceUrl": "https://gofund.me/b322ee5f5",
+      "raised": 20.0,
+      "target": 8000.0,
+      "progressPercent": 0.25,
+      "updatedAt": "2026-04-27T10:06:04+00:00"
     },
     {
       "id": "lccbc",
       "name": "Lucy Cavendish College BC",
       "icon": "../icons/lucybclogo.jpg",
-      "sourceUrl": "https://www.justgiving.com/page/lccbc2026",
-      "raised": 4502.95,
-      "target": 5000.0,
-      "progressPercent": 90.06,
-      "updatedAt": "2026-04-23T15:26:19+00:00"
+      "sourceUrl": "https://www.justgiving.com/page/lucy-cavendish-college-boat-club-4?utm_medium=FR&utm_source=CL",
+      "raised": 0.0,
+      "target": 1000.0,
+      "progressPercent": 0.0,
+      "updatedAt": "2026-04-27T10:06:04+00:00"
     },
     {
       "id": "secbc",
       "name": "St Edmund's College BC",
       "icon": "../icons/secbclogo.jpeg",
-      "sourceUrl": "https://www.justgiving.com/page/lccbc2026",
-      "raised": 4502.95,
-      "target": 5000.0,
-      "progressPercent": 90.06,
-      "updatedAt": "2026-04-23T15:26:19+00:00"
+      "sourceUrl": "https://www.justgiving.com/crowdfunding/sportsday-secbc",
+      "raised": 0.0,
+      "target": 1000.0,
+      "progressPercent": 0.0,
+      "updatedAt": "2026-04-27T10:06:04+00:00"
     }
   ],
   "totals": {
-    "raised": 13508.85,
-    "target": 15000.0,
-    "progressPercent": 90.06
+    "raised": 20.0,
+    "target": 10000.0,
+    "progressPercent": 0.2
   },
   "meta": {
-    "generatedAt": "2026-04-23T15:26:19+00:00",
-    "runId": "local-1776957979",
+    "generatedAt": "2026-04-27T10:06:04+00:00",
+    "runId": "local-1777284364",
     "partialFailure": false,
     "errors": []
   }
