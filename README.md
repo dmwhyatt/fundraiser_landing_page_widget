@@ -6,7 +6,7 @@ HHBC, LCCBC and SECBC are running a collaborative fundraiser in a few weeks' tim
 
 ## Current approach
 
-- A GitHub Action scrapes three fundraising pages on a schedule.
+- A GitHub Action scrapes three fundraising pages when triggered remotely.
 - The scraper writes a snapshot file to `data/totals.json`.
 - A static page in `embed/` reads that file and renders combined plus per-campaign progress.
 - WordPress embeds the page using an iframe.
@@ -49,12 +49,31 @@ This writes raw HTML files to `debug/` (for example `debug/campaign-a.html`) so 
 
 ## GitHub Actions secrets
 
-Set these repository secrets for the scheduled workflow:
+Set these repository secrets for the update workflow:
 
 - `FUNDRAISER_URL_A`
 - `FUNDRAISER_URL_B`
 - `FUNDRAISER_URL_C`
 
+## Remote scheduling with cron-job.org
+
+Use cron-job.org to trigger this repository workflow every 5 minutes via GitHub's API.
+
+1. Create a GitHub fine-grained personal access token with:
+   - Repository access to this repo
+   - `Actions: Read and write` permission
+2. In cron-job.org, create a new job with:
+   - URL: `https://api.github.com/repos/dmwhyatt/fundraiser_landing_page_widget/actions/workflows/update-totals.yml/dispatches`
+   - Method: `POST`
+   - Headers:
+     - `Accept: application/vnd.github+json`
+     - `Authorization: Bearer <YOUR_TOKEN>`
+     - `X-GitHub-Api-Version: 2022-11-28`
+   - Body:
+     - `{"ref":"main"}`
+   - Schedule: every 5 minutes
+3. Save and run a test job in cron-job.org, then verify a new Actions run appears with event `workflow_dispatch`.
+
 ## AI Statement
 
-I wrote this using assistance from Sonnet 4.6 and Codex 5.3. 
+I wrote this using assistance from Sonnet 4.6 and Codex 5.3.
