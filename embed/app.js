@@ -8,6 +8,34 @@ const lastUpdatedEl = document.getElementById("last-updated");
 const warningEl = document.getElementById("warning");
 const campaignListEl = document.getElementById("campaign-list");
 const campaignTemplate = document.getElementById("campaign-template");
+const HEIGHT_MESSAGE_TYPE = "fundraiser-widget-height";
+
+function getDocumentHeight() {
+  const body = document.body;
+  const html = document.documentElement;
+  return Math.max(
+    body.scrollHeight,
+    body.offsetHeight,
+    html.scrollHeight,
+    html.offsetHeight,
+    html.clientHeight
+  );
+}
+
+function postEmbedHeight() {
+  if (window.parent === window) return;
+  window.parent.postMessage(
+    {
+      type: HEIGHT_MESSAGE_TYPE,
+      height: getDocumentHeight()
+    },
+    "*"
+  );
+}
+
+function scheduleHeightPost() {
+  requestAnimationFrame(postEmbedHeight);
+}
 
 function formatCurrency(amount) {
   return new Intl.NumberFormat("en-GB", {
@@ -55,6 +83,7 @@ function renderCampaigns(campaigns) {
     setProgress(node.querySelector(".progress-fill"), campaign.progressPercent);
     campaignListEl.appendChild(node);
   });
+  scheduleHeightPost();
 }
 
 async function init() {
@@ -75,13 +104,18 @@ async function init() {
     setProgress(totalProgressEl, totals.progressPercent);
     lastUpdatedEl.textContent = formatTimestamp(meta.generatedAt);
     renderCampaigns(campaigns);
+    scheduleHeightPost();
 
   } catch (error) {
     lastUpdatedEl.textContent = "Could not load totals data.";
     warningEl.classList.remove("hidden");
     warningEl.textContent = "Data is temporarily unavailable. Please refresh shortly.";
     console.error(error);
+    scheduleHeightPost();
   }
 }
+
+window.addEventListener("load", scheduleHeightPost);
+window.addEventListener("resize", scheduleHeightPost);
 
 init();
