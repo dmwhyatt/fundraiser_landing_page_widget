@@ -76,7 +76,6 @@ async function init() {
     lastUpdatedEl.textContent = formatTimestamp(meta.generatedAt);
     renderCampaigns(campaigns);
 
-    warningEl.classList.toggle("hidden", !meta.partialFailure);
   } catch (error) {
     lastUpdatedEl.textContent = "Could not load totals data.";
     warningEl.classList.remove("hidden");
