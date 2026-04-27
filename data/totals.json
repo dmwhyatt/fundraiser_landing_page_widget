@@ -37,8 +37,8 @@
     "progressPercent": 0.2
   },
   "meta": {
-    "generatedAt": "2026-04-27T10:51:55+00:00",
-    "runId": "24990819165",
+    "generatedAt": "2026-04-27T10:55:18+00:00",
+    "runId": "24990969413",
     "partialFailure": true,
     "errors": [
       "hhbc: missing env var FUNDRAISER_URL_A",
