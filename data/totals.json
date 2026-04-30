@@ -8,7 +8,7 @@
       "raised": 222.0,
       "target": 8000.0,
       "progressPercent": 2.77,
-      "updatedAt": "2026-04-30T06:35:17+00:00"
+      "updatedAt": "2026-04-30T06:40:24+00:00"
     },
     {
       "id": "lccbc",
@@ -18,7 +18,7 @@
       "raised": 0.0,
       "target": 1000.0,
       "progressPercent": 0.0,
-      "updatedAt": "2026-04-30T06:35:17+00:00"
+      "updatedAt": "2026-04-30T06:40:24+00:00"
     },
     {
       "id": "secbc",
@@ -37,9 +37,11 @@
     "progressPercent": 2.92
   },
   "meta": {
-    "generatedAt": "2026-04-30T06:35:17+00:00",
-    "runId": "25151120785",
-    "partialFailure": false,
-    "errors": []
+    "generatedAt": "2026-04-30T06:40:24+00:00",
+    "runId": "25151289597",
+    "partialFailure": true,
+    "errors": [
+      "secbc: 404 Client Error: Not Found for url: https://www.justgiving.com/crowdfunding/secbc-sportsday"
+    ]
   }
 }
