@@ -5,10 +5,10 @@
       "name": "Hughes Hall BC",
       "icon": "../icons/hhbclogo.png",
       "sourceUrl": "https://www.gofundme.com/f/hughes-hall-bc-buy-a-new-mens-boat",
-      "raised": 272.0,
+      "raised": 422.0,
       "target": 8000.0,
-      "progressPercent": 3.4,
-      "updatedAt": "2026-05-01T10:05:17+00:00"
+      "progressPercent": 5.27,
+      "updatedAt": "2026-05-01T10:10:27+00:00"
     },
     {
       "id": "lccbc",
@@ -18,7 +18,7 @@
       "raised": 60.0,
       "target": 1000.0,
       "progressPercent": 6.0,
-      "updatedAt": "2026-05-01T10:05:17+00:00"
+      "updatedAt": "2026-05-01T10:10:27+00:00"
     },
     {
       "id": "secbc",
@@ -28,17 +28,17 @@
       "raised": 90.0,
       "target": 1000.0,
       "progressPercent": 9.0,
-      "updatedAt": "2026-05-01T10:05:17+00:00"
+      "updatedAt": "2026-05-01T10:10:27+00:00"
     }
   ],
   "totals": {
-    "raised": 422.0,
+    "raised": 572.0,
     "target": 10000.0,
-    "progressPercent": 4.22
+    "progressPercent": 5.72
   },
   "meta": {
-    "generatedAt": "2026-05-01T10:05:17+00:00",
-    "runId": "25210582949",
+    "generatedAt": "2026-05-01T10:10:27+00:00",
+    "runId": "25210707800",
     "partialFailure": false,
     "errors": []
   }
