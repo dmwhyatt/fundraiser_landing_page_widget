@@ -5,20 +5,20 @@
       "name": "Hughes Hall BC",
       "icon": "../icons/hhbclogo.png",
       "sourceUrl": "https://www.gofundme.com/f/hughes-hall-bc-buy-a-new-mens-boat",
-      "raised": 978.0,
+      "raised": 1028.0,
       "target": 8000.0,
-      "progressPercent": 12.22,
-      "updatedAt": "2026-05-02T13:15:27+00:00"
+      "progressPercent": 12.85,
+      "updatedAt": "2026-05-02T13:20:21+00:00"
     },
     {
       "id": "lccbc",
       "name": "Lucy Cavendish College BC",
       "icon": "../icons/lucybclogo.jpg",
       "sourceUrl": "https://www.justgiving.com/page/lucy-cavendish-college-boat-club-4?utm_medium=FR&utm_source=CL",
-      "raised": 106.0,
+      "raised": 111.0,
       "target": 1000.0,
-      "progressPercent": 10.6,
-      "updatedAt": "2026-05-02T13:15:27+00:00"
+      "progressPercent": 11.1,
+      "updatedAt": "2026-05-02T13:20:21+00:00"
     },
     {
       "id": "secbc",
@@ -28,17 +28,17 @@
       "raised": 171.0,
       "target": 1000.0,
       "progressPercent": 17.1,
-      "updatedAt": "2026-05-02T13:15:27+00:00"
+      "updatedAt": "2026-05-02T13:20:21+00:00"
     }
   ],
   "totals": {
-    "raised": 1255.0,
+    "raised": 1310.0,
     "target": 10000.0,
-    "progressPercent": 12.55
+    "progressPercent": 13.1
   },
   "meta": {
-    "generatedAt": "2026-05-02T13:15:27+00:00",
-    "runId": "25252746412",
+    "generatedAt": "2026-05-02T13:20:21+00:00",
+    "runId": "25252836388",
     "partialFailure": false,
     "errors": []
   }
