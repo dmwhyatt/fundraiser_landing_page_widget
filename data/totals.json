@@ -8,7 +8,7 @@
       "raised": 588.0,
       "target": 8000.0,
       "progressPercent": 7.35,
-      "updatedAt": "2026-05-02T06:50:24+00:00"
+      "updatedAt": "2026-05-02T06:55:25+00:00"
     },
     {
       "id": "lccbc",
@@ -18,7 +18,7 @@
       "raised": 60.0,
       "target": 1000.0,
       "progressPercent": 6.0,
-      "updatedAt": "2026-05-02T06:50:24+00:00"
+      "updatedAt": "2026-05-02T06:55:25+00:00"
     },
     {
       "id": "secbc",
@@ -28,7 +28,7 @@
       "raised": 135.0,
       "target": 1000.0,
       "progressPercent": 13.5,
-      "updatedAt": "2026-05-02T06:50:24+00:00"
+      "updatedAt": "2026-05-02T06:55:25+00:00"
     }
   ],
   "totals": {
@@ -37,8 +37,8 @@
     "progressPercent": 7.83
   },
   "meta": {
-    "generatedAt": "2026-05-02T06:50:24+00:00",
-    "runId": "25246187690",
+    "generatedAt": "2026-05-02T06:55:25+00:00",
+    "runId": "25246276770",
     "partialFailure": false,
     "errors": []
   }
