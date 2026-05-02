@@ -8,7 +8,7 @@
       "raised": 1028.0,
       "target": 8000.0,
       "progressPercent": 12.85,
-      "updatedAt": "2026-05-02T13:45:22+00:00"
+      "updatedAt": "2026-05-02T13:50:21+00:00"
     },
     {
       "id": "lccbc",
@@ -18,27 +18,27 @@
       "raised": 111.0,
       "target": 1000.0,
       "progressPercent": 11.1,
-      "updatedAt": "2026-05-02T13:45:22+00:00"
+      "updatedAt": "2026-05-02T13:50:21+00:00"
     },
     {
       "id": "secbc",
       "name": "St Edmund's College BC",
       "icon": "../icons/secbclogo.jpeg",
       "sourceUrl": "https://www.justgiving.com/crowdfunding/secbc-sportsday",
-      "raised": 176.0,
+      "raised": 184.0,
       "target": 1000.0,
-      "progressPercent": 17.6,
-      "updatedAt": "2026-05-02T13:45:22+00:00"
+      "progressPercent": 18.4,
+      "updatedAt": "2026-05-02T13:50:21+00:00"
     }
   ],
   "totals": {
-    "raised": 1315.0,
+    "raised": 1323.0,
     "target": 10000.0,
-    "progressPercent": 13.15
+    "progressPercent": 13.23
   },
   "meta": {
-    "generatedAt": "2026-05-02T13:45:22+00:00",
-    "runId": "25253293154",
+    "generatedAt": "2026-05-02T13:50:21+00:00",
+    "runId": "25253384013",
     "partialFailure": false,
     "errors": []
   }
