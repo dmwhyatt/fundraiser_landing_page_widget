@@ -8,17 +8,17 @@
       "raised": 798.0,
       "target": 8000.0,
       "progressPercent": 9.98,
-      "updatedAt": "2026-05-02T09:25:18+00:00"
+      "updatedAt": "2026-05-02T09:30:28+00:00"
     },
     {
       "id": "lccbc",
       "name": "Lucy Cavendish College BC",
       "icon": "../icons/lucybclogo.jpg",
       "sourceUrl": "https://www.justgiving.com/page/lucy-cavendish-college-boat-club-4?utm_medium=FR&utm_source=CL",
-      "raised": 60.0,
+      "raised": 75.0,
       "target": 1000.0,
-      "progressPercent": 6.0,
-      "updatedAt": "2026-05-02T09:25:18+00:00"
+      "progressPercent": 7.5,
+      "updatedAt": "2026-05-02T09:30:28+00:00"
     },
     {
       "id": "secbc",
@@ -28,17 +28,17 @@
       "raised": 135.0,
       "target": 1000.0,
       "progressPercent": 13.5,
-      "updatedAt": "2026-05-02T09:25:18+00:00"
+      "updatedAt": "2026-05-02T09:30:28+00:00"
     }
   ],
   "totals": {
-    "raised": 993.0,
+    "raised": 1008.0,
     "target": 10000.0,
-    "progressPercent": 9.93
+    "progressPercent": 10.08
   },
   "meta": {
-    "generatedAt": "2026-05-02T09:25:18+00:00",
-    "runId": "25248839293",
+    "generatedAt": "2026-05-02T09:30:28+00:00",
+    "runId": "25248927489",
     "partialFailure": false,
     "errors": []
   }
