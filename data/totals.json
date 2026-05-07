@@ -5,10 +5,10 @@
       "name": "Hughes Hall BC",
       "icon": "../icons/hhbclogo.png",
       "sourceUrl": "https://www.gofundme.com/f/hughes-hall-bc-buy-a-new-mens-boat",
-      "raised": 1093.0,
+      "raised": 1363.0,
       "target": 8000.0,
-      "progressPercent": 13.66,
-      "updatedAt": "2026-05-03T08:00:44+00:00"
+      "progressPercent": 17.04,
+      "updatedAt": "2026-05-07T12:28:38+00:00"
     },
     {
       "id": "lccbc",
@@ -18,27 +18,27 @@
       "raised": 116.0,
       "target": 1000.0,
       "progressPercent": 11.6,
-      "updatedAt": "2026-05-03T08:00:44+00:00"
+      "updatedAt": "2026-05-07T12:28:38+00:00"
     },
     {
       "id": "secbc",
       "name": "St Edmund's College BC",
       "icon": "../icons/secbclogo.jpeg",
       "sourceUrl": "https://www.justgiving.com/crowdfunding/secbc-sportsday",
-      "raised": 349.0,
+      "raised": 399.0,
       "target": 1000.0,
-      "progressPercent": 34.9,
-      "updatedAt": "2026-05-03T08:00:44+00:00"
+      "progressPercent": 39.9,
+      "updatedAt": "2026-05-07T12:28:38+00:00"
     }
   ],
   "totals": {
-    "raised": 1558.0,
+    "raised": 1878.0,
     "target": 10000.0,
-    "progressPercent": 15.58
+    "progressPercent": 18.78
   },
   "meta": {
-    "generatedAt": "2026-05-03T08:00:44+00:00",
-    "runId": "25273742660",
+    "generatedAt": "2026-05-07T12:28:38+00:00",
+    "runId": "25495762996",
     "partialFailure": false,
     "errors": []
   }
